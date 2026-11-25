@@ -1,0 +1,20 @@
+{
+  "default": {
+    "provider": "elevenlabs",
+    "voice_id": "OKXs3meiBjKES3o87ubz",
+    "voice_name": "Aisyah – Relatable Gen Z Girl",
+    "model_id": "eleven_v4",
+    "language": "ms",
+    "note": "Dipilih pemilik. Guna suara ni untuk semua voiceover kecuali diminta lain."
+  },
+  "fallback_free": {
+    "provider": "edge-tts",
+    "voice": "ms-MY-YasminNeural",
+    "rate": "+8%",
+    "note": "Percuma. Guna kalau kuota ElevenLabs habis. Perlukan --proxy kat server Claude."
+  },
+  "tested_rejected": [
+    {"voice_id": "XHHq0T7TrxYsw8u6d5SL", "voice_name": "Aisyah – Warm, Relaxed Lifestyle Creator", "reason": "kurang energy"},
+    {"voice_id": "oY2R1uwdLgzzd4CTREYh", "voice_name": "Gierose - casual", "reason": "Gen Z lagi best"}
+  ]
+}
